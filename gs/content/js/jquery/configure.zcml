@@ -22,11 +22,9 @@
     file="js/jquery-ui-1.9.2.custom.min.js" 
     permission="zope2.Public" />
 
-  <browser:resourceDirectory name="jquery-ui-1.8.5-css"
-    directory="css" 
-    permission="zope2.Public" />
-  <browser:resourceDirectory name="jquery-ui-1.8.9-css"
-    directory="css" 
+  <browser:resourceDirectory 
+    name="jquery-ui-1.8.9-css"
+    directory="css/jquery-ui-1.8.9" 
     permission="zope2.Public" />
 
 </configure>

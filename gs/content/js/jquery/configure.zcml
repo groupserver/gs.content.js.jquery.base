@@ -4,11 +4,22 @@
   xmlns:five="http://namespaces.zope.org/five"
   i18n_domain="groupserver">
 
-  <browser:resource name="jquery-ui-1.7.2.custom.min.js"
+  <browser:resource 
+    name="jquery-1.4.4.min.js"
+    file="js/jquery-1.4.4.min.js" 
+    permission="zope2.Public" />
+  <browser:resource 
+    name="jquery-1.8.3.js"
+    file="js/jquery-1.8.3.js" 
+    permission="zope2.Public" />
+
+  <browser:resource 
+    name="jquery-ui-1.8.9.custom.min.js"
     file="js/jquery-ui-1.8.9.custom.min.js" 
     permission="zope2.Public" />
-  <browser:resource name="jquery-ui-1.8.9.custom.min.js"
-    file="js/jquery-ui-1.8.9.custom.min.js" 
+  <browser:resource 
+    name="jquery-ui-1.9.2.custom.min.js"
+    file="js/jquery-ui-1.9.2.custom.min.js" 
     permission="zope2.Public" />
 
   <browser:resourceDirectory name="jquery-ui-1.8.5-css"
@@ -16,13 +27,6 @@
     permission="zope2.Public" />
   <browser:resourceDirectory name="jquery-ui-1.8.9-css"
     directory="css" 
-    permission="zope2.Public" />
-
-  <browser:resource name="jquery-1.4.2.min.js"
-    file="js/jquery-1.4.4.min.js" 
-    permission="zope2.Public" />
-  <browser:resource name="jquery-1.4.4.min.js"
-    file="js/jquery-1.4.4.min.js" 
     permission="zope2.Public" />
 
 </configure>

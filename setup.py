@@ -18,10 +18,10 @@ setup(name='gs.content.js.jquery',
       "License :: Other/Proprietary License",
       "Natural Language :: English",
       "Operating System :: POSIX :: Linux"
-      "Programming Language :: Python",
-      "Topic :: Software Development :: Libraries :: Python Modules",
+      "Programming Language :: JavaScript",
+      "Topic :: Software Development :: Libraries :: JavaScript Modules",
       ],
-    keywords='group membership group groupserver',
+    keywords='javascript jQuery jQuery.UI',
     author='Michael JasonSmith',
     author_email='mpj17@onlinegroups.net',
     url='http://groupserver.org/',
@@ -32,7 +32,6 @@ setup(name='gs.content.js.jquery',
     zip_safe=True,
     install_requires=[
         'setuptools',
-        # -*- Extra requirements: -*-
     ],
     entry_points="""
     # -*- Entry points: -*-

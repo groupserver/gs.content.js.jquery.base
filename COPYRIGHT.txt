@@ -1,0 +1,4 @@
+jQuery JavaScript, images and CSS are Copyright 2013 jQuery Foundation and
+other contributors http://jquery.com/
+
+The egg (gs.content.js.jquery.base) copyright OnlineGroups.net and contributors.

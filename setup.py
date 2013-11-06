@@ -30,7 +30,7 @@ setup(name='gs.content.js.jquery.base',
     namespace_packages=['gs','gs.content', 'gs.content.js', 
                         'gs.content.js.jquery'],
     include_package_data=True,
-    zip_safe=True,
+    zip_safe=False,
     install_requires=[
         'setuptools',
     ],

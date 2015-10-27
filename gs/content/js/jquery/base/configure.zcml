@@ -1,27 +1,26 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <configure xmlns="http://namespaces.zope.org/zope"
-  xmlns:browser="http://namespaces.zope.org/browser"
-  i18n_domain="groupserver">
+           xmlns:browser="http://namespaces.zope.org/browser"
+           i18n_domain="gs.content.js.jquery.base">
 
   <!--Old (for the cache)-->
-  <browser:resource 
+  <browser:resource
     name="jquery-1.4.4.min.js"
-    file="js/jquery-1.4.4.min.js" 
+    file="js/jquery-1.4.4.min.js"
     permission="zope2.Public" />
-  <browser:resource 
+  <browser:resource
     name="jquery-1.8.3.js"
-    file="js/jquery-1.8.3.js" 
+    file="js/jquery-1.8.3.js"
     permission="zope2.Public" />
 
   <!--New-->
-  <browser:resource 
+  <browser:resource
     name="jquery-1.9.1.js"
-    file="js/jquery-1.9.1.js" 
+    file="js/jquery-1.9.1.js"
     permission="zope2.Public" />
-  <browser:resource 
+  <browser:resource
     name="jquery-1.9.1.min.js"
-    file="js/jquery-1.9.1.min.js" 
+    file="js/jquery-1.9.1.min.js"
     permission="zope2.Public" />
 
 </configure>
-

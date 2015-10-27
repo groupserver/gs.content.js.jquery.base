@@ -4,6 +4,7 @@
            i18n_domain="gs.content.js.jquery.base">
 
   <!--Old (for the cache)-->
+  <!--jQuery 1.4.4-->
   <browser:resource
     name="jquery-1.4.4.min.js"
     file="js/jquery-1.4.4.min.js"
@@ -12,8 +13,7 @@
     name="jquery-1.8.3.js"
     file="js/jquery-1.8.3.js"
     permission="zope2.Public" />
-
-  <!--New-->
+  <!--jQuery 1.9.1-->
   <browser:resource
     name="jquery-1.9.1.js"
     file="js/jquery-1.9.1.js"
@@ -21,6 +21,20 @@
   <browser:resource
     name="jquery-1.9.1.min.js"
     file="js/jquery-1.9.1.min.js"
+    permission="zope2.Public" />
+
+  <!--New: jQuery 1.11.3-->
+  <browser:resource
+    name="jquery-1.11.3.js"
+    file="js/jquery-1.11.3.js"
+    permission="zope2.Public" />
+  <browser:resource
+    name="jquery-1.11.3.min.js"
+    file="js/jquery-1.11.3.min.js"
+    permission="zope2.Public" />
+  <browser:resource
+    name="jquery-1.11.3.min.map"
+    file="js/jquery-1.11.3.min.map"
     permission="zope2.Public" />
 
 </configure>

@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-version = '1.9.1'
+version = '1.11.3'
 release = False
 
 #-----------------------------------------------------------------------------#
@@ -54,7 +54,7 @@ def get_version():
         dt = datetime.datetime.utcfromtimestamp(timestamp)
         datestring = dt.strftime('%Y%m%d%H%M%S')
 
-        version_string = "%s-%s-%s" % (version, datestring, globalid)
+        version_string = "%s-%s" % (version, datestring)
 
     except (CommandError, ValueError, TypeError):
         version_string = parse_version_from_package()

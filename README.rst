@@ -27,17 +27,17 @@ Browser Resources
 
 Two browser resources are defined.
 
-``/++resource++jquery-1.9.1.js``:
+``/++resource++jquery-1.11.3.js``:
   The core jQuery code.
 
 
-``/++resource++jquery-1.9.1.min.js``:
+``/++resource++jquery-1.11.3.min.js``:
   The minified version of the jQuery code.
 
 Resources
 =========
 
-- Code repository: https://source.iopen.net/groupserver/gs.content.js.jquery
+- Code repository: https://github.com/groupserver/gs.content.js.jquery
 - Questions and comments to http://groupserver.org/groups/development
 - Report bugs at https://redmine.iopen.net/projects/groupserver
 

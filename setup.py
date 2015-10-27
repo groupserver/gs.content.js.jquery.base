@@ -1,15 +1,23 @@
 # -*- coding: utf-8 -*-
+import codecs
 import os
 from setuptools import setup, find_packages
 from version import get_version
 
+name = 'gs.content.js.jquery.base'
 version = get_version()
 
-setup(name='gs.content.js.jquery.base',
+with codecs.open('README.rst', encoding='utf-8') as f:
+    long_description = f.read()
+with codecs.open(os.path.join("docs", "HISTORY.rst"),
+                 encoding='utf-8') as f:
+    long_description += '\n' + f.read()
+
+setup(
+    name=name,
     version=version,
     description="jQuery Code.",
-    long_description=open("README.rst").read() + "\n" +
-                      open(os.path.join("docs", "HISTORY.rst")).read(),
+    long_description=long_description,
     classifiers=[
         'Development Status :: 5 - Production/Stable',
         "Environment :: Web Environment",
@@ -24,11 +32,11 @@ setup(name='gs.content.js.jquery.base',
     keywords='javascript jQuery jQuery.UI',
     author='Michael JasonSmith',
     author_email='mpj17@onlinegroups.net',
-    url='http://groupserver.org/',
+    url='https://github.com/groupserver/{0}/'.format(name),
     license='MIT',
     packages=find_packages(exclude=['ez_setup']),
-    namespace_packages=['gs','gs.content', 'gs.content.js', 
-                        'gs.content.js.jquery'],
+    namespace_packages=['.'.join(name.split('.')[:i])
+                        for i in range(1, len(name.split('.')))],
     include_package_data=True,
     zip_safe=False,
     install_requires=[

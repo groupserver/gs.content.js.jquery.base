@@ -29,7 +29,7 @@ setup(
         "Programming Language :: JavaScript",
         "Topic :: Internet :: WWW/HTTP :: Dynamic Content",
     ],
-    keywords='javascript jQuery jQuery.UI',
+    keywords='javascript, jQuery, resource',
     author='Michael JasonSmith',
     author_email='mpj17@onlinegroups.net',
     url='https://github.com/groupserver/{0}/'.format(name),

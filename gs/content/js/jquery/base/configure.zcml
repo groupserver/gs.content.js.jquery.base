@@ -3,7 +3,7 @@
            xmlns:browser="http://namespaces.zope.org/browser"
            i18n_domain="gs.content.js.jquery.base">
 
-  <!--New: jQuery 1.11.3-->
+  <!--New: jQuery 1.12.0-->
   <browser:resource
     name="jquery-1.12.0.js"
     file="js/jquery-1.12.0.js"
